@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.square {
+  background-color: #e5e5e5;
+  border: 1px solid black;
+  width: 45px;
+  height: 45px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #cecece;
+}
+
+.board {
+  margin-left: 35px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 135px;
+  height: 135px;
+}
+
+.status {
+  margin-left: 35px;
+  margin-top: 35px;
+}
